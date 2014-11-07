@@ -3,21 +3,16 @@
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
     id="com.github.deboorn.imag-cordova-plugin"
     version="0.1.0">
-    <name>iMag Plugin</name>
+    <name>iMagPlugin</name>
     <!-- ios -->
     <platform name="ios">
-        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+        <config-file target="*-Info.plist" parent="UISupportedExternalAccessoryProtocols">
             <array>
-                <dict>
-                    <key>UISupportedExternalAccessoryProtocols</key>
-                    <array>
-                        <string>com.idtechproducts.reader</string>
-                    </array>
-                </dict>
+                <string>com.idtechproducts.reader</string>
             </array>
         </config-file>
         <config-file target="config.xml" parent="/*">
-            <feature name="iMagCordovaPlugin">
+            <feature name="iMagPlugin">
                 <param name="ios-package" value="iMagPlugin" />
             </feature>
         </config-file>
