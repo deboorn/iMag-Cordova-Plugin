@@ -27,7 +27,7 @@
         <header-file src="src/ios/iMagPlugin.h" />
 	    <source-file src="src/ios/iMagPlugin.m" />
         <header-file src="src/ios/iMag.h" />
-        <source-file src="src/ios/libiMagSDK.a" />
+        <source-file framework="true" src="src/ios/libiMagSDK.a" />
         <framework src="ExternalAccessory.framework" />
     </platform>
 </plugin>
