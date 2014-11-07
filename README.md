@@ -25,13 +25,12 @@ Step 2: Add a plugin definition to the `config.xml`
 
 Step 3: Invoke plugin from HTML
 ```
-<script>
+//place in your application js, document must be loaded prior to invoking
   imag.start(function(result){
       alert(result);
   }, function(error){
       alert("Error: " + error);
   });
-</script>
 ```
 
 The 1st param is the result handler followed by the error handler. iMag events will be sent to the result handler. 
