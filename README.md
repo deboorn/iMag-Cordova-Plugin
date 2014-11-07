@@ -26,7 +26,6 @@ Step 2: Add a plugin definition to the `config.xml`
 Step 3: Invoke plugin from HTML
 ```
 <script>
-  alert(imag);
   imag.start(function(result){
       alert(result);
   }, function(error){
