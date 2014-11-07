@@ -5,6 +5,9 @@ iMag Pro Cordova Plugin for use with iMag Pro Mobile MagStripe Reader for iOS. <
 More Info on iMag Pro Reader: <br>
 http://www.idtechproducts.com/products/mobile-readers/125.html
 
+Short Demo: <br>
+https://www.youtube.com/watch?v=IvbQ5cFjVxs&feature=youtu.be
+
 ### License
 
 CC BY-NC 4.0 http://creativecommons.org/licenses/by-nc/4.0/<br>
