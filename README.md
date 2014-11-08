@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=IvbQ5cFjVxs&feature=youtu.be
 
 ### License
 
-CC BY-NC 4.0 http://creativecommons.org/licenses/by-nc/4.0/<br>
+CC BY 4.0 http://creativecommons.org/licenses/by/4.0/<br>
 Core iMag iOS SDK files are Copyright of their Respective Owners.
 
 ### Installation & Usage
